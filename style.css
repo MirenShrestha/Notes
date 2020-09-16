@@ -1,0 +1,44 @@
+body
+{
+    max-width: 600px;
+    margin: auto;
+}
+
+#note
+{
+    width: 100%;
+}
+
+#btnSave{
+    float: right;
+    margin: 10px;
+    color: white;
+    background: darkgreen;
+    padding: 10px 20px;
+
+}
+
+#btnSave:hover
+{
+    background: forestgreen;
+}
+.displaying{
+    background: rgb(208, 219, 54);
+    font-size: large;
+    margin: 20px;
+    padding: 10px 70px;
+
+}
+
+#display{
+    margin-top: 70px;
+}
+
+#remove{
+   
+    margin: 10px;
+    color: white;
+    background: red;
+    padding: 10px 20px;
+    cursor: pointer;
+}
